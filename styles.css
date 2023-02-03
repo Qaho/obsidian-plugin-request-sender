@@ -1,8 +1,37 @@
-/*
+.main-container {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.flex-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
 
-If your plugin does not need CSS, delete this file.
+.container {
+  margin-top: 8px;
+  border: solid 1px;
+  border-radius: 5px;
+}
 
-*/
+.content {
+  padding: 8px;
+}
+
+.status {
+  border-bottom: solid 2px;
+}
+
+.status-success {
+  background-color: #003319;
+}
+
+.status-error {
+  background-color: #660000;
+}
+
+.icon {
+  display: block;
+  padding-top: 5px;
+}
